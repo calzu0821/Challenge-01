@@ -9,10 +9,11 @@
 </head>
 
 <body>
-<!--added the header tag as a semantic html element-->
-    <header class="header">
+<!--added the header and nav tags as semantic html elements. The nav tag is used to define the list of below navigation links-->
+<!--removed class attribute-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,29 +25,32 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
 <!--added the section tag as a semantic html element and an accessible alt attribute to the image-->
+<!--changed img class name to meeting-img to be easier to identify in css and understand which image we're referring to-->
     <section>
-        <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting Image"></div>
+        <img class="meeting-img" src="./assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting Image"></div>
     </section>
 <!--added the main tag and section tags as a semantic html elements in addition to alt attributes to images for accessibility-->
-    <main class="content">
-        <section class="search-engine-optimization">
+    <main>
+<!--section was renamed for grouping and condensing for css styling-->
+        <section class="services-section">
              <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization Image"/>
                 <h2>Search Engine Optimization</h2>
                     <p>
                         The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                     </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
+<!--removed id attribute for the below two sections and kept the class attribute to group and condense css-->
+        <section class="services-section">
             <img class="float-right" src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management Image"/>
                 <h2>Online Reputation Management</h2>
                     <p>
                         The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                     </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section class="services-section">
             <img class="float-left" src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing Image"/>
                 <h2>Social Media Marketing</h2>
                     <p>
@@ -55,22 +59,23 @@
         </section>
 </main>
 <!--added the aside tag and section tags as semantic html elements to compliment this side bar in addition to alt attributes to images for accessibility-->
-    <aside class="benefits">
-        <section class="benefit-lead">
+    <aside>
+<!--section was renamed for grouping and condensing for css styling-->
+        <section class="benefits-section">
             <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Lead Generation image" />
                     <p>
                         Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                     </p>
         </section>
-        <section class="benefit-brand">
+        <section class="benefits-section">
             <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" alt="Brand Awareness Image"/>
                     <p>
                         Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                     </p>
         </section>
-        <section class="benefit-cost">
+        <section class="benefits-section">
             <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="Cost Management Image" />
                     <p>
@@ -78,9 +83,9 @@
                     </p>
         </section>
     </aside>
-<!--added the footer tag as a semantic html element-->
-    <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+<!--added the footer tag as a semantic html element and removed the class attribute-->
+    <footer>
+        <h3>Made with ❤️️ by Horiseon</h3>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>

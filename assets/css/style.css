@@ -51,12 +51,12 @@ p {
     font-size: 16px;
 }
 
-/* header ends here. moved this class selector after the tag selectors so that all selectors are organized in a logistical way so the code is more efficient and easy to maintain. */
+/* Header ends here. Moved this class selector after the tag selectors so that all selectors are organized in a logistical way so the code is more efficient and easy to maintain. */
 .seo {
     color: #d9dcd6;
 }
 
-/* changed class selector name to be easier to identify. Removed background URL as this is already in the html and not necessary here */
+/* Changed class selector name to be easier to identify. Removed background URL as this is already in the html and not necessary here. */
 .meeting-img {
     height: 800px;
     width: 100%;
@@ -65,14 +65,14 @@ p {
     background-position: center
 }
 
-/* main starts here (tag selector) */
+/* Main starts here (tag selector). */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* selectors were grouped and renamed for efficiency and condensing */
+/* Selectors were grouped and renamed for efficiency and condensing. */
 .services-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,9 +100,9 @@ main {
     float: right;
     margin-left: 25px;
 }
-/* main ends here. */
+/* Main ends here. */
 
-/* aside starts here. */
+/* Aside starts here. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -114,7 +114,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* selectors were grouped and renamed for efficiency and condensing */
+/* Selectors were grouped and renamed for efficiency and condensing. */
 .benefits-section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -131,7 +131,7 @@ aside {
     max-width: 150px;
 }
 
-/* changed footer from a class selector to tag selector to be more efficient and and easier to maintain. */
+/* Changed footer from a class selector to tag selector to be more efficient and and easier to maintain. */
 footer {
     padding: 30px;
     clear: both;
